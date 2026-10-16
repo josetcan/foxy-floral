@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found · Foxy Floral</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#575655">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Gilda+Display&display=swap">
+  <style>
+    :root { --charcoal: #575655; --cream: #f9f0e2; --rule: #c46735; --ease-out: cubic-bezier(0.23, 1, 0.32, 1); }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; min-height: 100svh;
+      display: grid; place-items: center; text-align: center;
+      background: var(--charcoal); color: var(--cream);
+      font-family: "Gilda Display", "Times New Roman", serif; padding: 1.5rem 1rem;
+    }
+    main { display: grid; justify-items: center; gap: 1.25rem; }
+    img { width: min(15rem, 60vw); height: auto; animation: in 1.2s var(--ease-out) both; }
+    h1 { margin: 0; font-family: "Pinyon Script", cursive; font-weight: 400; font-size: clamp(2.5rem, 2rem + 3vw, 3.75rem); line-height: 1.1; animation: in 1.2s var(--ease-out) .2s both; }
+    p { margin: 0; opacity: .8; animation: in 1.2s var(--ease-out) .35s both; }
+    .rule { width: 5rem; height: 1px; background: var(--rule); }
+    a {
+      display: inline-flex; align-items: center; min-height: 3rem; padding: .7rem 1.6rem;
+      border: 1px solid var(--cream); color: var(--cream); text-decoration: none;
+      font-size: .8125rem; letter-spacing: .24em; text-transform: uppercase;
+      transition: background-color .25s ease, color .25s ease; animation: in 1.2s var(--ease-out) .5s both;
+    }
+    a:hover { background: var(--cream); color: var(--charcoal); }
+    a:focus-visible { outline: 1px solid var(--cream); outline-offset: 5px; }
+    @keyframes in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { img, h1, p, a { animation: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="/assets/logo-720.webp" alt="Foxy Floral logo" width="720" height="714">
+    <h1>Page not found</h1>
+    <span class="rule" aria-hidden="true"></span>
+    <p>This page doesn’t exist.</p>
+    <a href="/">Back to Foxy Floral</a>
+  </main>
+</body>
+</html>

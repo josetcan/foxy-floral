@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foxy Floral · Floral Arrangement Service in Alexandria, VA</title>
+  <meta name="description" content="Foxy Floral designs and creates floral arrangements for every occasion, made by hand in Alexandria, Virginia. Delivery or pickup in the D.C., Baltimore and Virginia area.">
+  <meta name="theme-color" content="#575655">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:title" content="Foxy Floral · Floral Arrangement Service">
+  <meta property="og:description" content="Floral arrangements for every occasion, made by hand in Alexandria, Virginia.">
+  <meta property="og:image" content="https://foxyfloral.com/assets/og.jpg">
+  <meta property="og:url" content="https://foxyfloral.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Foxy Floral">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Foxy Floral logo: a fox trimming flowers">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://foxyfloral.com/">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="assets/logo.webp" imagesrcset="assets/logo-720.webp 720w, assets/logo.webp 1080w" imagesizes="(min-width: 56rem) 34rem, 90vw">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Entrada: el logo primero, luego la información. Se salta si piden menos movimiento o si la página no carga a la altura de la portada.
+    (function (d) {
+      d.classList.add("js");
+      if (!matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        d.classList.add("intro");
+        setTimeout(function () { d.classList.remove("intro"); }, 7000);
+      }
+      // Si main.js no llega a correr, se muestra todo sin animación
+      setTimeout(function () { if (!window.ffReady) d.classList.remove("js", "intro"); }, 3000);
+    })(document.documentElement);
+  </script>
+  <script src="main.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Florist",
+    "name": "Foxy Floral",
+    "legalName": "Foxy Floral LLC",
+    "url": "https://foxyfloral.com/",
+    "logo": "https://foxyfloral.com/assets/logo.webp",
+    "image": "https://foxyfloral.com/assets/og.jpg",
+    "description": "Floral arrangements for every occasion, made by hand in Alexandria, Virginia.",
+    "telephone": "+1-786-564-3010",
+    "email": "josetcan@foxyfloral.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "950 S Pickett St",
+      "addressLocality": "Alexandria",
+      "addressRegion": "VA",
+      "postalCode": "22304",
+      "addressCountry": "US"
+    },
+    "areaServed": ["Washington, D.C.", "Baltimore", "Virginia"],
+    "founder": {
+      "@type": "Person",
+      "name": "Jose Thomas Cantillana",
+      "jobTitle": "CEO",
+      "sameAs": "https://www.linkedin.com/in/jose-thomas-cantillana-herdoiza-3977b3350/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="bar" data-bar>
+    <div class="bar__inner">
+      <a class="brand" href="#top">
+        <img src="assets/apple-touch-icon.png" alt="" width="34" height="34">
+        <span class="brand__name">Foxy Floral</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <ul class="nav__list">
+          <li><a href="#delivery" data-nav>Delivery</a></li>
+          <li><a href="#visit" data-nav>Visit us</a></li>
+          <li><a href="#contact" data-nav>Contact</a></li>
+        </ul>
+        <span class="nav__indicator" data-indicator aria-hidden="true"></span>
+      </nav>
+      <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu" data-menu-btn>
+        <span class="menu-btn__bar"></span>
+        <span class="menu-btn__bar"></span>
+      </button>
+    </div>
+    <span class="bar__progress" aria-hidden="true"></span>
+  </header>
+
+  <div class="menu" id="menu" data-menu hidden>
+    <ul class="menu__list">
+      <li><a href="#delivery" data-menu-link>Delivery and pickup</a></li>
+      <li><a href="#visit" data-menu-link>Visit us</a></li>
+      <li><a href="#contact" data-menu-link>Contact</a></li>
+    </ul>
+    <div class="menu__foot">
+      <a class="btn" href="tel:+17865643010">Call us</a>
+      <a class="btn btn--line" href="mailto:josetcan@foxyfloral.com">Email us</a>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <figure class="hero__logo" data-parallax>
+          <img src="assets/logo.webp" srcset="assets/logo-720.webp 720w, assets/logo.webp 1080w" sizes="(min-width: 56rem) 34rem, 90vw" alt="Foxy Floral logo: a fox on a stool trims flowers in a metal bucket" width="1080" height="1072" fetchpriority="high">
+        </figure>
+        <div class="hero__text">
+          <h1 id="hero-title" class="visually-hidden">Foxy Floral, floral arrangement service</h1>
+          <p class="hero__lead" data-reveal>At Foxy Floral, we design and create floral arrangements for every occasion. If you can picture an arrangement for your event, we can replicate it!</p>
+          <p class="hero__p" data-reveal>We make each piece by hand in our Alexandria, Virginia workspace.</p>
+          <div class="hero__actions" data-reveal>
+            <a class="btn" href="tel:+17865643010">Call us</a>
+            <a class="btn btn--line" href="mailto:josetcan@foxyfloral.com">Email us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="delivery" aria-labelledby="delivery-title">
+      <div class="wrap">
+        <div class="ornament" data-draw aria-hidden="true">
+          <span class="ornament__line"></span>
+          <img src="assets/ornament.png" alt="" width="122" height="52">
+          <span class="ornament__line"></span>
+        </div>
+        <div class="band__inner">
+          <h2 id="delivery-title" data-words>Delivery and pickup</h2>
+          <div>
+            <p class="band__lead" data-reveal>We deliver or arrange pickup anywhere in the D.C., Baltimore and Virginia area.</p>
+            <ul class="areas" aria-label="Service area">
+              <li data-reveal>Washington, D.C.</li>
+              <li data-reveal>Baltimore</li>
+              <li data-reveal>Virginia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit" id="visit" aria-labelledby="visit-title">
+      <div class="wrap">
+        <div class="visit__inner">
+          <div class="visit__text">
+            <h2 id="visit-title" data-words>Visit us</h2>
+            <p data-reveal>We’d love for you to see our work in person. Please call ahead before you visit.</p>
+            <address data-reveal>
+              950 S Pickett St<br>
+              Alexandria, VA 22304
+            </address>
+            <div class="visit__links" data-reveal>
+              <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=950+S+Pickett+St%2C+Alexandria%2C+VA+22304" rel="noopener" target="_blank">Get directions<span class="visually-hidden"> (opens Google Maps in a new tab)</span></a>
+              <a class="link" href="tel:+17865643010">Call ahead</a>
+            </div>
+          </div>
+          <div class="visit__map" data-unveil>
+            <iframe title="Map: 950 S Pickett St, Alexandria, VA 22304" src="https://www.google.com/maps?q=950+S+Pickett+St,+Alexandria,+VA+22304&amp;output=embed" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <div class="ornament" data-draw aria-hidden="true">
+          <span class="ornament__line"></span>
+          <img src="assets/ornament.png" alt="" width="122" height="52">
+          <span class="ornament__line"></span>
+        </div>
+        <div class="contact__inner">
+          <div class="contact__info">
+            <h2 id="contact-title" data-words>Contact</h2>
+            <p class="contact__intro" data-reveal>Call or email us any time.</p>
+          </div>
+            <dl class="card">
+              <div class="card__person" data-row>
+                <dt class="visually-hidden">Name</dt>
+                <dd class="card__name">Jose Thomas Cantillana</dd>
+                <dt class="visually-hidden">Title</dt>
+                <dd class="card__role">CEO</dd>
+              </div>
+              <div class="card__row" data-row>
+                <dt>Phone</dt>
+                <dd><a class="link" href="tel:+17865643010">+1 786 564 3010</a></dd>
+              </div>
+              <div class="card__row" data-row>
+                <dt>Email</dt>
+                <dd><a class="link" href="mailto:josetcan@foxyfloral.com">josetcan@foxyfloral.com</a></dd>
+              </div>
+              <div class="card__row" data-row>
+                <dt>LinkedIn</dt>
+                <dd><a class="link" href="https://www.linkedin.com/in/jose-thomas-cantillana-herdoiza-3977b3350/" rel="noopener" target="_blank">Jose Thomas Cantillana<span class="visually-hidden"> (opens in a new tab)</span></a></dd>
+              </div>
+            </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <div class="foot__brand">
+        <img src="assets/apple-touch-icon.png" alt="" width="44" height="44">
+        <p><span class="foot__name">Foxy Floral</span><span class="foot__tag">Floral Arrangement Service</span></p>
+      </div>
+      <nav class="foot__nav" aria-label="Footer">
+        <a href="#delivery">Delivery</a>
+        <a href="#visit">Visit us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <address class="foot__contact">
+        950 S Pickett St, Alexandria, VA 22304<br>
+        <a href="tel:+17865643010">+1 786 564 3010</a> · <a href="mailto:josetcan@foxyfloral.com">josetcan@foxyfloral.com</a>
+      </address>
+    </div>
+    <div class="wrap foot__legal">
+      <a class="foot__credit" href="https://equatorcg.com" aria-label="Website by ECG Creative">
+        <span>Website by</span>
+        <span class="ecg-mark" aria-hidden="true"></span>
+      </a>
+      <p class="foot__end">© 2026 Foxy Floral <span aria-hidden="true">·</span> <a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+</body>
+</html>
