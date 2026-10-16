@@ -192,6 +192,7 @@ h2 {
   clip-path: inset(0 0 100% 0);
   transition: clip-path .5s var(--ease-drawer);
 }
+.menu[hidden] { display: none; }
 .menu.is-open { clip-path: inset(0 0 0 0); }
 .menu__list { list-style: none; margin: 0; padding: 0; display: grid; }
 .menu__list a {
